@@ -25,7 +25,7 @@ function Contact() {
   }
 
   function handleInsta(){
-    const isMobile=/iPhone|iPad|iPod|Adndroid/i.test(navigator.userAgent)
+    const isMobile=/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
    const instaweb="https://www.instagram.com/nameisadersh"
    if(isMobile){
     const applink="instagram://user?username=nameisadersh"
@@ -41,7 +41,7 @@ function Contact() {
 
 
   function handlelinkedin(){
-    const isMobile=/iPhone|iPad|iPod|Adndroid/i.test(navigator.userAgent)
+    const isMobile=/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
    const instaweb="https://www.linkedin.com/in/adershpr"
    if(isMobile){
     const applink="linkedin://in/adershpr"
@@ -56,7 +56,7 @@ function Contact() {
   }
 
   function handlephone(){
-    const isMobile=/iPhone|iPad|iPod|Adndroid/i.test(navigator.userAgent)
+    const isMobile=/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
   
    if(isMobile){
     const applink="tel:+919061119356"
