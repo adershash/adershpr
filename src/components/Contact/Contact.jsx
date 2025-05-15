@@ -57,16 +57,13 @@ function Contact() {
    const instaweb="https://www.linkedin.com/in/adershpr"
    if(isMobile){
     const applink="linkedin://in/adershpr"
-    let flag=true
-    if(applink){
-      flag=false
+   
     window.location.href=applink
-  }
-  if(flag){
+
     setTimeout(()=>{
       window.location.href=instaweb
     },1500)
-   }}else{
+   }else{
       window.open(instaweb,"LinkedInProfilePopup","width=800,height=600,scrollbars=yes,resizable=yes")
    }
     
