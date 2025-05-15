@@ -11,7 +11,7 @@ function Contact() {
     const isMobile=/iPhone|iPad|iPod|Andriod/i.test(navigator.userAgent)
     const gmailweb="https://mail.google.com/mail/?view=cm&fs=1&to=adershashp17@gmail.com"
     if(isMobile){
-      const applink="intent://mail/#Internet;scheme=mailto;package=com.google.android.gm;S.to=adershashp17@gmail.com;end"
+      const applink="mailto:adershashp17@gmail.com"
       window.location.href=applink
 
       setTimeout(()=>{
