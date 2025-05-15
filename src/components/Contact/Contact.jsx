@@ -13,11 +13,17 @@ function Contact() {
     
     if(isMobile){
       const applink="mailto:adershashp17@gmail.com"
+      let flag=true
+      if(applink){
+        flag=false
       window.location.href=applink
-
+      
+      }
+      if(flag){
       setTimeout(()=>{
         window.location.href=gmailweb
       },1500)
+    }
     }else{
           window.open(gmailweb,"GmailComposePopup","width=800,height=600,scrollbars=yes,resizable=yes")
     }
