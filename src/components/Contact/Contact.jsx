@@ -8,8 +8,9 @@ function Contact() {
   const {contact}=useContext(scrollcontext)
 
   function handleMailto(){
-    const isMobile=/iPhone|iPad|iPod|Andriod/i.test(navigator.userAgent)
+    const isMobile=/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
     const gmailweb="https://mail.google.com/mail/?view=cm&fs=1&to=adershashp17@gmail.com"
+    
     if(isMobile){
       const applink="mailto:adershashp17@gmail.com"
       window.location.href=applink
