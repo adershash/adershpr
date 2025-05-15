@@ -27,7 +27,7 @@ function Banner() {
                   working with cloud platforms like AWS. Strong problem-solver with a focus on performance, scalability, and clean code.</p>
                   <div className='space-x-4 mt-5'>
                     <button className=' bg-red-700  border-blue-900 rounded-full w-28 h-7 text-center transition-all ease-in-out duration-300 hover:bg-orange-600 hover:translate-y-1'onClick={()=>{contact.current?.scrollIntoView({behavior:'smooth'})}}>Contact me</button>
-                    <button  className=' bg-red-700  border-blue-900 rounded-full w-28 h-7 text-center transition-all ease-in-out duration-300 hover:bg-orange-600 hover:translate-y-1' onClick={handleDownload}>Download CV</button>
+                    <button  className=' bg-red-700  border-blue-900 rounded-full w-28 h-7 text-center transition-all ease-in-out duration-300 hover:bg-orange-600 hover:translate-y-1' onClick={handleDownload}>Download</button>
                   </div>
         </div>
 
