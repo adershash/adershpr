@@ -57,13 +57,11 @@ function Contact() {
 
   function handlephone(){
     const isMobile=/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
-  
+    console.log(isMobile)
    if(isMobile){
     const applink="tel:+919061119356"
     window.location.href=applink
-    setTimeout(()=>{
-      window.location.href=instaweb
-    },1500)
+    
    }else{
       alert("dailing is not supported in desktop")
    }
